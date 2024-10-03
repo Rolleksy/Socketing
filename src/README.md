@@ -1,6 +1,19 @@
 # Proof of concept 
 **socket.io, express-handlebars, compiled ts with types, webpack, socketService for server-side events**
 
+## How to run
+
+1. Clone this repo,
+2. `npm install`
+3. `tsc` to compile typescript files
+4. `npm run start` to build and start app
+5. It should be on `localhost:3000`
+
+For Menu: `localhost:3000/menu`
+For Chat: `localhost:3000/chat`
+
+**Open it in two browser instances to see chat working**
+
 ## Project structure just as an example, sorry for non-uniform naming convention 
 
 ## server.ts
