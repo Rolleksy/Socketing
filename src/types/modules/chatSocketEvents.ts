@@ -1,4 +1,3 @@
-// types/socketEvents.ts
 export interface ChatServerToClientEvents {
     broadcastMessage: (message: string) => void;
 }
