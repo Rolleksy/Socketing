@@ -1,0 +1,31 @@
+{
+  "name": "socketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && nodemon --exec ts-node ./src/server.ts",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-handlebars": "^6.0.0",
+    "@types/handlebars": "^4.1.0",
+    "@types/socket.io": "^3.0.2",
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
